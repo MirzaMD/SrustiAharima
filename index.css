@@ -1,0 +1,13 @@
+@media(min-height:300px){
+    button{
+        position:relative;
+        right:50px;
+        top:-200px;
+    }
+    i{
+        font-size:40px;
+        position:relative;
+       left:235px;
+        top:-90px;
+    }
+}

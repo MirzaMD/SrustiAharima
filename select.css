@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    width:100%;
+}
+.shapes{
+    border-radius:30%;
+    position:relative;
+    top:200px;
+    left:500px;
+}
+#questions{
+    position:absolute;
+    left:620px;
+    top:80px;
+    color:whitesmoke;
+    font-size:40px;
+    margin: 0;
+    padding:0;
+}
+#correct{
+    position:relative;
+    top:250px;
+    left:800px;
+    font-size:70px;
+    color:transparent;
+    opacity:1;
+}
+#incorrect{
+    position:relative;
+    top:165px;
+    left:1150px;
+    font-size:70px;
+    color:transparent;
+    opacity: 1;
+}
+#title{
+    color: beige;
+    font-size: 50px;
+    position:absolute;
+    left:880px;
+}
+#sD{
+    position:relative;
+    left:1550px;
+    font-size:45px;
+    color:whitesmoke;
+    bottom:50px;
+}
+
+/* Media queries */
+
+/* 320x648 */
+@media (min-width: 320px) and (min-height: 648px) {
+    #questions {
+        left: 120px;
+        font-size: 15px;
+        margin-left:20px;
+    }
+
+    #correct,
+    #incorrect {
+        left: 220px;
+        font-size: 30px;
+        top:250px;
+    }
+
+    #title {
+        left: 150px;
+        font-size: 20px;
+    }
+
+    #sD {
+        left: 300px;
+        font-size: 20px;
+        top:-60px;
+    }
+
+    .shapes {
+        top: 200px;
+        left: 130px;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+/* 375x648 */
+@media (min-width: 375px) and (min-height: 648px) {
+    #questions {
+        left: 90px;
+        font-size: 17px;
+    }
+
+    #correct,
+    #incorrect {
+        left: 200px;
+        font-size: 35px;
+    }
+
+    #title {
+        left: 160px;
+        font-size: 25px;
+    }
+
+    #sD {
+        left: 340px;
+        font-size: 20px;
+        top:-50px;
+    }
+
+    .shapes {
+        top: 200px;
+        left: 140px;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+/* 425x648 */
+@media (min-width: 425px) and (min-height: 648px) {
+    #questions {
+        left: 180px;
+        font-size: 15px;
+    }
+
+    #correct,
+    #incorrect {
+        left: 320px;
+        font-size: 30px;
+        top:190px;
+    }
+
+    #title {
+        left: 230px;
+        font-size: 25px;
+    }
+
+    #sD {
+        left: 410px;
+        font-size: 20px;
+    }
+
+    .shapes {
+        top: 160px;
+        left: 225px;
+        height: 80px;
+        width: 80px;
+    }
+}
+
+/* 768x648 */
+@media (min-width: 768px) and (min-height: 648px) {
+    #questions {
+        left: 100px;
+        font-size: 35px;
+    }
+
+    #correct,
+    #incorrect {
+        left: 280px;
+        font-size: 45px;
+        top:280px;
+    }
+
+    #title {
+        left: 100px;
+        font-size: 45px;
+    }
+
+    #sD {
+        left: 650px;
+        font-size: 25px;
+        top:-80px;
+    }
+
+    .shapes {
+        top: 230px;
+        left: 70px;
+        height: 110px;
+        width: 110px;
+    }
+}
+
+/* 1024x648 */
+@media (min-width: 1024px) and (min-height: 648px) {
+    #questions {
+        left: 150px;
+        font-size: 40px;
+    }
+
+    #correct,
+    #incorrect {
+        left: 450px;
+        font-size: 50px;
+    }
+
+    #title {
+        left: 150px;
+        font-size: 50px;
+    }
+
+    #sD {
+        left: 850px;
+        font-size: 30px;
+        top:-100px;
+    }
+
+    .shapes {
+        top: 240px;
+        left: 150px;
+        height: 140px;
+        width: 140px;
+    }
+}
+
+/* 1440x648 */
+@media (min-width: 1440px) and (min-height: 648px) {
+    #questions {
+        left: 200px;
+        font-size: 40px;
+    }
+
+    #correct,
+    #incorrect {
+        left: 700px;
+        font-size: 60px;
+    }
+
+    #title {
+        left: 100px;
+        font-size: 60px;
+    }
+
+    #sD {
+        left: 1200px;
+        font-size: 37px;
+    }
+
+    .shapes {
+        top: 200px;
+        left: 200px;
+        height: 220px;
+        width: 220px;
+    }
+}
+/*
+@media (min-width: 2560px) and (min-height: 648px) {
+    #questions {
+        top:150px;
+        left: 200px;
+        font-size: 60px;
+    }
+
+    #correct,
+    #incorrect {
+        top:500px;
+        left: 1200px;
+        font-size: 80px;
+    }
+
+    #title {
+        left: 780px;
+        font-size: 60px;
+    }
+
+    #sD {
+        left: 2380px;
+        font-size:60px;
+        top:-150px;
+    }
+
+    .shapes {
+        top: 600px;
+        left: 250px;
+        height: 450px;
+        width: 450px;
+    }
+}*/

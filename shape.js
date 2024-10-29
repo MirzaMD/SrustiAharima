@@ -177,3 +177,4 @@ function checkWin(){
     }
 }
 // made some changes in the code here
+// some more changes were added

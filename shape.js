@@ -176,4 +176,4 @@ function checkWin(){
         },1000);
     }
 }
-
+// made some changes in the code here
